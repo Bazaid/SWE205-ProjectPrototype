@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md">
+    <div class="container"><a href="#" class="navbar-brand"><i class="icon ion-android-car"></i> Car Rental</a>
+        <button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="nav navbar-nav ml-auto">
+                <li role="presentation" class="nav-item"><a href="#" class="nav-link active">Home </a></li>
+                <li role="presentation" class="nav-item"><a href="#" class="nav-link">Second Item</a></li>
+                <li class="dropdown"><a data-toggle="dropdown" aria-expanded="false" href="#" class="dropdown-toggle nav-link dropdown-toggle">Have an account? </a>
+                    <div role="menu" class="dropdown-menu">
+                    <a role="presentation" href="#" class="dropdown-item">Login</a>
+                    <a role="presentation" href="#" class="dropdown-item">Register</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="jumbotron hero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                                <li class="nav-item"><a class="nav-link active" href="#item-1-1" id="item-1-1-tab" data-toggle="tab" role="tab" aria-controls="item-1-1" aria-selected="true">Rent </a></li>
+                                <li class="nav-item"><a class="nav-link" href="#item-1-2" id="item-1-2-tab" data-toggle="tab" role="tab" aria-controls="item-1-2" aria-selected="false">Instant Rent</a></li>
+                            </ul>
+                        </div>
+                        <div class="card-body">
+                            <div id="nav-tabContent" class="tab-content">
+                                <div id="item-1-1" class="tab-pane fade show active" role="tabpanel" aria-labelledby="item-1-1-tab">
+                                    <h4>Rent a car</h4>
+                                    <div class="row">
+                                        <div class="col">
+                                            <label class="col-form-label">From: </label>
+                                            <form>
+                                                <div class="form-group">
+                                                    <input class="form-control form-control" type="date" id="from">
+                                                </div>
+                                            </form>
+                                            <div class="form-group">
+                                                <label>To: </label>
+                                                <input type="date" id="to" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="button">Search </button>
+                                </div>
+                                <div id="item-1-2" class="tab-pane fade" role="tabpanel" aria-labelledby="item-1-2-tab">
+                                    <h4>Instant Rent</h4>
+                                    <div class="row">
+                                        <div class="col">
+                                            <iframe allowfullscreen="" frameborder="0" width="100%" height="400" src="https://www.google.com/maps/embed/v1/place?key=+AIzaSyA6j6aA1IfNSd6vL9LJmhiuECv9z04Jbes+&amp;q=KFUPM+Daharan&amp;zoom=15"></iframe>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary" type="button">Rent </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="testimonials">
+        <h2 class="text-center">Instant Rent</h2>
+        <blockquote class="blockquote">
+            <p>Instant rent provide you an easy and more conventional way to rent a car just chose the closest car to you and click Rent!</p>
+            <footer class="blockquote-footer">Yor car is just one click a way!</footer>
+        </blockquote>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About </h2>
+                    <p>Morbi non mauris massa. Duis elit mauris, malesuada nec suscipit ac, bibendum sed augue. Maecenas condimentum magna gravida, laoreet nunc sed, euismod sem. </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row icon-features">
+                        <div class="col-4 icon-feature"><i class="fa fa-flash"></i>
+                            <p>Easy Car Rental.</p>
+                        </div>
+                        <div class="col-4 icon-feature"><i class="fa fa-key"></i>
+                            <p>Keyless </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h5>Car Rental Company© 2017</h5></div>
+                <div class="col-sm-6 social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
