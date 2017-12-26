@@ -35,7 +35,7 @@
                                                 <label for="to" class="col-form-label">To: </label>
                                                 <input type="date" id="to"  value="{{ old('to') }}" name="to"  class="form-control">
                                             </div>
-                                            <button class="btn btn-primary" type="submit">Search </button>
+                                            <a type="button" href="/search" role="button" class="btn btn-primary">Search</a>
 
                                           </form>
                                         </div>

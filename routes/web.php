@@ -16,8 +16,13 @@ Auth::routes();
 
 Route::get('/', '\App\Http\Controllers\HomeController@index');
 
+Route::get('/search', '\App\Http\Controllers\HomeController@result');
+//Route::post('/search', '\App\Http\Controllers\HomeController@result');
+
 Route::get('/result', '\App\Http\Controllers\HomeController@result');
+
 Route::get('/payment', '\App\Http\Controllers\HomeController@payment');
+Route::get('/payment/{id}', '\App\Http\Controllers\HomeController@payment');
 
 Route::get('/home', '\App\Http\Controllers\HomeController@index');
 

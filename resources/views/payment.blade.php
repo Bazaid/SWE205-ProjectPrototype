@@ -61,7 +61,7 @@
                                                                   </thead>
                                                                   <tbody>
                                                                       <tr>
-                                                                          <td class="col-md-9"><em>Baked Rodopa Sheep Feta</em></h4></td>
+                                                                          <td class="col-md-9"><em>Hyundai accent</em></h4></td>
                                                                           <td class="col-md-1" style="text-align: center"> 1</td>
                                                                           <td class="col-md-1 text-center">$100</td>
                                                                           <td class="col-md-1 text-center">$100</td>
@@ -72,14 +72,14 @@
                                                                           <td>   </td>
                                                                           <td class="text-right">
                                                                           <p>
-                                                                              <strong>Subtotal: </strong>
+                                                                              <strong>Subtotal: $</strong>
                                                                           </p>
                                                                           <p>
                                                                               <strong>Tax: </strong>
                                                                           </p></td>
                                                                           <td class="text-center">
                                                                           <p>
-                                                                              <strong>$0.0</strong>
+                                                                              <strong>$100.0</strong>
                                                                           </p>
                                                                           <p>
                                                                               <strong>$0.0</strong>
